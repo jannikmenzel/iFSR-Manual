@@ -1,0 +1,188 @@
+# Studienalltag
+
+Mit dem Studium kommen neue Aufgaben und Herausforderungen auf dich zu, die es zu meistern gilt.
+Die folgenden Seiten geben dir einen kleinen Eindruck davon, wie das Studium aufgebaut ist und wie das Lernen an der Uni funktioniert.
+Lies dir aber unbedingt auch deine [Studienordnung](https://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2016-06/11soBA24.04.2016.pdf)
+und [Prüfungsordnung](https://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2016-06/11poBA24.04.2016.pdf) durch.
+
+## Module
+Im Verlauf deines Studiums musst du zahlreiche sogenannte Module erfolgreich absolvieren. Ein Modul kann mehrere Lehrveranstaltungen beinhalten. Das können Vorlesungen,
+Übungen, Praktika oder auch Seminare sein. Viele Module bestehen nur aus einer Vorlesung und einer dazugehörigen Übung. Du schließt ein Modul ab, indem du die Modulprüfung
+bestehst. Eine Modulprüfung kann sich aus einer oder mehreren Prüfungsleistungen (z.B. Klausur) zusammensetzen. Manchmal muss zunächst eine Prüfungsvorleistung erbracht werden, um
+überhaupt an einer Prüfung teilnehmen zu dürfen. Für die einzelnen Module ist in der Anlage 2 zur Studienordnung (Modulbeschreibungen) genau geregelt, welche Prüfungsleistungen zu
+erbringen sind.
+Jedes Modul hat eine ausgeschriebene Anzahl an Leistungspunkten (LP, oft auch Credits oder ECTS-Punkte genannt). Dabei entspricht ein LP einer Arbeitsbelastung von 30 Stunden. Wenn ein Modul 5 LP bringt, heißt das also,
+dass über das Semester verteilt 150 Stunden Arbeit anstehen. Diese Arbeitsbelastung setzt sich zusammen aus Präsenzzeit (Zeit, die du tatsächlich in Vorlesungen/Übungen an der Uni verbringst),
+Zeit zur Vor- und Nachbereitung der Veranstaltungen (Selbststudium), Prüfungsvorbereitung und der Prüfung selbst. Die LP für ein Modul werden nach bestandener Modulprüfung anerkannt.
+
+## Stundenplan
+
+An der Uni gibt es ein so genanntes Lehrangebot, das kurz vor Beginn jedes Semesters veröffentlicht wird.
+Du findest diese bereits nach Semestern sortierte Liste von Lehrveranstaltungen online auf der Seite der [Fakultät](https://www.inf.tu-dresden.de/).
+Ab dem zweiten Semester besteht deine Aufgabe darin, dir aus daraus deinen Stundenplan zu basteln.
+Für den Anfang bekommst du erstmal fertige Stundenpläne von uns, aus denen du dann einfach einen Stundenplan zur Einschreibung in jExam auswählen kannst. Keine Sorge, wir machen das bei der ESE gemeinsam mit dir.
+
+
+Während Vorlesungen generell einen festen Termin haben, kannst du dich ab dem zweiten Semester flexibel in die Übungen eintragen.
+Schreib dich bei [jExam](https://jexam.inf.tu-dresden.de/) einfach für die Übungsstunden deiner Wahl ein.
+Stellst du später jedoch fest, dass dein Übungsleiter die Qualitäten einer Schlaftablette aufweist oder dir die Übung zu voll ist, zögere nicht die Übung zu wechseln.
+
+Wenn du dir das Lehrangebot anschaust, wirst du auf die Abkürzung SWS stoßen. SWS steht für Semesterwochenstunden und gibt den Zeitaufwand für eine Lehrveranstaltung an.
+SWS treffen dabei lediglich eine Aussage über die Präsenzzeit an der Uni. Die Zeit zur Vor- und Nachbereitung wird dabei nicht berücksichtigt.
+Die Angabe 1 SWS bedeutet, dass die Lehrveranstaltung während der Vorlesungszeit wöchentlich durchschnittlich 45 min lang gelehrt wird. Eine Lehrveranstaltung mit 4 SWS wird entsprechend
+pro Woche 3 Stunden gelehrt. Eine Lehreinheit an der Uni dauert 90 Minuten und wird Doppelstunde (DS) genannt. Eine Veranstaltung mit 4 SWS findet also 2-mal wöchentlich statt.
+Etwas komplizierter ist es, wenn eine Lehrveranstaltung tatsächlich nur 1 SWS umfasst. Dann findet die Veranstaltung nur 14-tägig statt und man muss genau schauen, ob die Veranstaltung jeweils in
+geraden oder ungeraden Kalenderwochen stattfindet. Im Stundenplan wirst du dann die Bezeichnungen "1. Woche" oder "2. Woche" finden. Diese haben nichts mit den Wochen seit Semesterbeginn zu tun!
+"1. Woche" bedeutet, dass die Lehrveranstaltung in jeder ungeraden Kalenderwoche stattfindet und "2. Woche" steht analog für gerade Kalenderwochen.
+
+Die Studienablaufpläne aller Studiengänge findest du [hier](https://tu-dresden.de/ing/informatik/studium/studienangebot) groß.
+
+## Vorlesung
+
+In der Vorlesung wird der Stoff vermittelt, der schlussendlich in der Prüfung abgefragt wird. 
+Es ist also sinnvoll, die Vorlesung aktiv zu verfolgen und sie ggf. vor- und nachzubereiten. 
+Nicht ratsam ist es, erst vor der Prüfung den ganzen Stoff aufzuholen, da die Stoffmenge in der Regel sehr groß ist und es also unnötig mehr Stress in der Prüfungsphase bedeuten würde.
+Besonders am Anfang deines Studium ist die Zahl der Zuhörer einer Vorlesung im dreistelligen Bereich. 
+Daran gewöhnt man sich aber in der Regel schnell.
+Je mehr Leute aber in einer Vorlesung sitzen, desto Wahrscheinlicher ist es, dass jemand an einer Stelle in der Vorlesung nicht mitkommt. 
+Das kann jedem mal passieren.
+Falls du also dieser jemand sein solltest, habe keine falsche Scheu, den Dozierenden eine Frage zu stellen, um die Unklarheiten zu beseitigen. 
+Aktive Beteildigung in der Vorlesung ist immer gerne gesehen bei den Dozierenden.
+Und ja, auch wenn es eine Verständnisfrage ist. 
+Wahrscheinlich freut sich dann auch der ein oder andere Kommilitone von dir, der dieselbe Frage, aber nicht den Mut hatte zu fragen.
+Welche Vorlesung du in welchem Semester besuchen solltest, findest du im jeweiligen Studienablaufplan deines Studiengangs
+[Bachelor Informatik](https://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2016-06/11soBA24.04.2016.pdf), [Bachelor Medieninformatik](https://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2016-06/11soBAMI24.04.2016.pdf), [Diplom Informatik](https://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/studium/dateien/studien_und_pruefungsordnungen/dipl_inf_so_app1_de.pdf)) oder im Vorlesungsverzeichnis auf der Seite der [Fakultät](https://tu-dresden.de/ing/informatik/studium/lehre).
+
+
+## Übung
+
+Übungen werden zu fast allen Vorlesungen angeboten und dienen dazu, Aufgaben zum aktuellen Vorlesungsstoff zu bearbeiten. Klausuren orientieren sich häufig an den Übungsaufgaben, deshalb solltest du die Übungen
+regelmäßig besuchen. Die Übungen werden meistens von Studenten aus höheren Semestern oder von Lehrstuhlmitarbeitern gehalten, nicht vom Professor.
+Das hat auch den Vorteil, dass man bekanntlich viele Dinge besser versteht, wenn man sie noch einmal aus einem anderen Mund erklärt bekommt.
+Die jeweils aktuellen Übungsaufgaben findest du auf der Seite des jeweiligen Dozenten, oft unter den Stichworten Teaching oder Lehre.
+Es wird erwartet, dass du dir die Aufgaben bereits vor der Übung anschaust, um dann Lösungen oder Fragen zu diskutieren.
+
+
+## Praktikum
+
+Das erste Praktikum erwartet dich bereits in der vorlesungsfreien Zeit des ersten Semesters -- plane deinen Urlaub also lieber nicht zu schnell!
+Dort wirst du im Einführungspraktikum *Robolab* dein Können unter Beweis stellen. Diplomer müssen zusätzlich noch das Strategiespielepraktikum absolvieren.
+Ein ganzes Praktikumssemester ist nur für Diplomstudenten im 7. Semester Pflicht.
+Natürlich ist es trotzdem empfehlenswert, Praktika bei echten Firmen außerhalb der Fakultät in den Semesterferien zu machen, das steigert nicht nur deine Jobchancen, sondern zeigt dir auch, ob deine Studienwahl tatsächlich die Richtige war.
+
+## Prüfungen
+Direkt an die Vorlesungszeit schließt die Prüfungszeit an – die wohl stressigste Zeit im Leben eines Studenten.
+Die genauen Prüfungstermine findest du für das Wintersemester meist etwa Anfang Januar auf der Homepage der [Fakultät](https://tu-dresden.de/ing/informatik/studium/news) oder direkt beim [Prüfungsamt](https://tu-dresden.de/ing/informatik/studium/pruefungsorganisation).
+Im Laufe des Semesters hast du die Gelegenheit, dich dafür (innerhalb der Einschreibefrist) über jExam einzuschreiben.
+Dort hast du auch die Möglichkeit, dich bis zu drei *Werk*tage vor der Prüfung wieder auszutragen. Du kannst die Prüfung auch in einem späteren Semester schreiben. Das sollte aber natürlich nicht zum Regelfall werden. Für mündliche und sonstige Prüfungen gilt eine Abmeldefrist von 14 Tagen.
+Solltest du aufgrund eines Rücktritts innerhalb der Frist oder einer plötzlichen Erkrankung von der Prüfung ausscheiden, kannst du dich auf der Seite des Prüfungsamtes informieren,
+welche Nachweise (Atteste) du im Prüfungsamt innerhalb welcher Frist einreichen [musst](https://tu-dresden.de/ing/informatik/studium/pruefungsorganisation/pruefungen/abmelden-ruecktritt-krankheit).
+Prüfungen werden mit Noten bewertet, wobei alle mit besser als 5.0 bewerteten Prüfungen als bestanden gelten und nicht wiederholt werden können.
+Noten Schlechter als 5.0 gibt es nicht.
+Die 5.0 ist damit die einzige Chance, eine Prüfung nicht zu bestehen.
+Hast du das erst einmal geschafft, gibt es die Möglichkeit, die Prüfung innerhalb von zwei Semestern zu wiederholen.
+Nach dem zweiten nicht geglückten Prüfungsversuch hast du nur noch ein Semester Zeit bis der dritte erfolgen muss.
+Erst wenn du das dritte Mal die Klausur nicht bestanden hast (also die zweite Wiederholungsklausur), wirst du exmatrikuliert.
+Genauere Informationen zu dieser Thematik findest du stets in der Prüfungs- bzw. der Studienordnung, die du dir unbedingt mal angeschaut haben solltest.
+Deine erste Matheprüfung erwartet dich übrigens bereits im Dezember: die sogenannte Nikolausklausur.
+
+## Leistungsnachweis
+
+Bei manchen Prüfungen erhältst du neben der Note einen Leistungsnachweis (oder kurz: Schein).
+Dazu zählen unter anderem die Sprachkurse, die Forschungslinie und z.T. Nebenfachprüfungen. Diese Scheine brauchst du, um dir diese Leistungen im Prüfungsamt anrechnen lassen zu können.
+
+## Sprachausbildung
+
+Es werden an der TU Dresden Kurse für fast alle möglichen (und unmöglichen) Sprachen angeboten.
+Zu diesem Zweck gibt es zwei Zentren für die Sprachausbildung: Das "Lehrzentrum Sprachen und Kulturen" (LSK) und "TUD Institute of Advanced Studies" (TUDIAS).
+Das Sprachangebot der beiden Einrichtungen ähnelt sich sehr stark.
+Du hast für diverse Sprachkurse ein Budget an Semesterwochenstunden (insgesamt 10 SWS), die du ausgeben kannst, wie du willst.
+Für dein Studium zum Bachelor der (Medien-)Informatik sind Sprachkurse generell optional, aber auf jeden Fall empfehlenswert.
+Für Diplomstudenten sind 2 Semester Englisch im Laufe des Studiums Pflicht.
+Studierst du allerdings Bachelor Informatik und möchtest danach mit dem Master Informatik an der TU Dresden weitermachen, wirst du für den Master das Sprachniveau B2 in Englisch nachweisen müssen,
+also kann es sich auch für dich anbieten, die entsprechenden Sprachkurse zu besuchen.
+Die Einschreibung für einen Sprachkurs erfolgt [online](https://sprachausbildung.tu-dresden.de) mit deinem ZIH-Login.
+Sobald die Kurse freigeschaltet sind, solltest du dich jedoch stark beeilen, denn die beliebten Kurse sind meist innerhalb weniger Minuten voll.
+Weitere Infos findest du auf der Seite des [LSK](https://tu-dresden.de/lsk) und [tudias](https://www.tudias.de/).
+
+
+## Schreibberatung
+Das Schreibzentrum der [TU Dresden](https://www.facebook.com/SchreibzentrumTUD) ist ein Kooperationsprojekt für Studierende und Lehrende vom Zentrum für Weiterbildung und dem Career Service. Es bietet Unterstützung, Methoden und Ideen zum Thema "wissenschaftliches Schreiben".
+Du kannst mit deinen Schreibprojekten aller Art (Beleg, Seminararbeit, Abschlussarbeit, etc.) entweder in die offene Schreibsprechstunde am SCS ServicePoint der SLUB kommen oder einen individuellen Termin per [E-Mail](mailto:Schreibzentrum@mailbox.tu-dresden.de) vereinbaren.
+Dabei spielt es keine Rolle, wie weit die Arbeit bereits ist, ob man also noch ganz am Anfang steht oder kurz vor der Abgabe.
+Auch muss kein konkretes Problem vorliegen, sondern intuitive Anliegen zur Arbeit können ebenfalls geschildert werden.
+
+Die Schreibberatung unterstützt bei Fragen zum Schreibprozess -- von der Themenfindung, über die Gliederung bis hin zur Abgabe der fertigen Arbeit.
+Ausgebildete studentische Schreibtutorinnen und Schreibtutoren unterstützen dich mit vielfältigen Schreibmethoden und Techniken.
+Inhaltliche Tipps oder Hilfestellungen können dir dabei nicht gegeben werden.
+Auch liest die Schreibberatung keine Texte Korrektur; allerdings kannst du exemplarisch Textfeedback auf Textauszüge bekommen.
+Das Angebot ist selbstverständlich kostenlos.
+
+## Stipendien
+
+Neben dem BAföG sind auch Stipendien eine gern genutzte Möglichkeit der Studienfinanzierung.
+
+Viele Stipendien werden von den 13 überwiegend staatlich finanzierten Begabtenförderungswerken vergeben, die sich hinsichtlich ihres weltanschaulichen, religiösen oder politischen Profils unterscheiden.
+Oftmals werden Studierende aufgrund guter Leistungen von Schulen, Prüfungsämtern oder Hochschullehrern direkt vorgeschlagen.
+Bei vielen Werken sind aber auch Selbstbewerbungen möglich.
+Für die Aufnahme muss man keineswegs ein Überflieger sein.
+
+Im Auswahlprozess können gesellschaftliches oder soziales Engagement eine ebenso wichtige Rolle spielen.
+Die Stipendien werden in Anlehnung an das BAföG abhängig vom eigenen Einkommen und Vermögen sowie vom Einkommen der Eltern berechnet.
+Zusätzlich erhalten die Stipendiaten eine monatliche Studienkostenpauschale in Höhe von 300 Euro.
+Im Gegensatz zum BAföG müssen die Stipendien jedoch nicht zurückgezahlt werden.
+Neben der finanziellen Förderung bieten alle Werke eine umfangreiche ideelle Förderung in Form von Sprachkursen, Exkursionen und Akademien.
+
+Ebenso bekannt ist das Deutschlandstipendium, welches zur Hälfte von privaten Geldgebern finanziert wird.
+Die finanzielle Förderung erfolgt unabhängig vom eigenen Einkommen oder dem der Eltern und beläuft sich auf 300 Euro monatlich.
+Das Deutschlandstipendium wird nicht auf das BAföG angerechnet und muss ebenfalls nicht zurückgezahlt werden.
+Bewerbungen werden jeweils im Juli direkt vom Zentrum für Weiterbildung der [TU Dresden](https://tu-dresden.de/deutschlandstipendium) entgegengenommen.
+
+Es gibt noch viele weitere Organisationen, deren Förderung überwiegend privat finanziert wird. Diese vergeben jedoch oft nur wenige Vollstipendien oder beschränken die Förderung auf geringere Sach- oder Geldleistungen.
+
+
+## Hochschulgruppen
+
+Lernen und feiern reicht dir nicht?
+Such dir eine Hochschulgruppe!
+Dort findest du ehrenamtlich engagierte Studierende, die aktiv das Leben auf
+dem Campus mitgestalten wollen.
+Und je nachdem was du suchst, wirst du auch Diskussionen, die Möglichkeit anderen zu helfen, neue Erfahrungen, interessante Leute und vieles mehr finden können.
+
+Thematisch ist für jeden etwas dabei.
+So gibt es Hochschulgruppen mit politischem und gesellschaftlichem Engagement.
+Andere sind interessiert an der Gestaltung kultureller Vielfalt in Dresden.
+Natürlich sind aber auch technisch orientierte Hochschulgruppen vertreten.
+Schau dich einfach mal [hier](https://www.stura.tu-dresden.de/hochschulgruppen) um und melde dich direkt bei einer Hochschulgruppe deiner Wahl.
+Vielleicht ist ja was für dich dabei.
+
+## Auslandsaufenthalte
+
+Bei akutem Auslandswunsch oder studienbegleitendem Internationalisierungsdrang fragen Sie bitte das Auslandsamt der Uni oder Ihren Professor des Vertrauens.
+Auslandsaufenthalte können Nebenwirkungen hervorrufen.
+Über diese können Sie sich bei Kommilitonen erkundigen.
+
+Im Verlaufe deines Studiums werden dich immer wieder Leute fragen, ob du nicht ein oder zwei Semester im Ausland verbringen möchtest.
+Nun magst du dich als unschuldiger Erstsemester fragen, warum denn das und wieso kommt ihr jetzt schon damit an?
+Die Antwort ist einfach:
+Zum einen kannst du direkt deine Sprachkenntnisse verbessern, Kontakte knüpfen und neue Kulturen erleben -- Eine willkommene Abwechslung, um den Kopf frei zu bekommen nach den anstrengenden Semestern. Es werden neue Perspektiven vermittelt, sowohl akademisch als auch fachlich. Außerdem hilft es dir bei der Entwicklung deiner Softskills wie Selbstständigkeit, Toleranz und Anpassungsfähigkeit (um nur einige zu nennen). Alles Dinge, die dir später weiterhelfen werden und für die du später dankbar sein wirst.
+Kurz und knapp gesagt ein Auslandsaufenthalt ist nützlich, erfordert aber etwas Planung.
+Deshalb ist es von Vorteil sich möglichst früh zu informieren.
+Für Infos und bei Fragen kannst du dich an das Akademische Auslandsamt (AAA) der [TU](https://tu-dresden.de/studium/im-studium/beratung-und-service/akademisches-auslandsamt) wenden und auf den Seiten der [Fakultät](https://tu-dresden.de/ing/informatik/studium/internationales/outgoing) informieren.
+Wenn man mutig ist, kann man sogar Professoren direkt fragen, ob sie Kontakte zu anderen Unis oder Unternehmen haben.
+Es liegt an dir, wie erfolgreich dein Auslandsaufenthalt wird.
+Ob beim Streicheln von Robben vor Neufundland oder beim Scrum-Meeting im Silicon Valley, es gibt eine Menge Angebote, die auf dich warten!
+
+
+## Urlaubssemester
+Es gibt eine ganze Reihe von Gründen, die dich daran hindern können, dein Studium an der TU ordnungsgemäß weiterzuführen.
+Klassische Gründe sind schwere Erkrankungen, längere Praktika, Auslandsaufenthalte oder (unverhoffter) Nachwuchs, um den du dich kümmern musst.
+In solchen Fällen kannst du dich von deinem Studium beurlauben lassen, um dich voll und ganz auf den Urlaubsgrund zu konzentrieren.
+Während eines Urlaubssemesters bist du von der Pflicht befreit, Prüfungen ablegen zu müssen, genießt aber weiterhin alle Vorteile des Studierendendaseins.
+Andererseits hast du in dieser Zeit meist auch keinen Anspruch auf BAföG- oder Kindergeld-Zahlungen, also plane das nicht unbedingt bei deinen Einkünften ein.
+
+Solltest du ein Auslandsstudium machen und ein paar Semester in fernen Landen verweilen, kannst du dir danach erbrachte Leistungen und Prüfungen hier anrechnen lassen.
+Einziger Fallstrick dabei: Wenn du genügend Leistungspunkte einbringst, wirst du trotzdem ein Fachsemester hochgestuft, aber da kann dir die Studienfachberatung weiterhelfen.
+
+Beantragen kannst du ein Urlaubssemester beim [Immatrikulationsamt](https://tu-dresden.de/imma/) während der Rückmeldefrist für das nächste Semester.
+Wie genau das geht und weitere Informationen findest du [hier](https://tu-dresden.de/studium/im-studium/studienorganisation/beurlaubung).

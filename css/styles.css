@@ -1,0 +1,288 @@
+/* ========================
+   Allgemeines Styling
+   ======================== */
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    height: 100vh;
+    line-height: 1.6;
+}
+
+/* ========================
+   Navbar
+   ======================== */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161b22;
+    padding: 1rem 2rem;
+    color: #c9d1d9;
+    z-index: 1000;
+    height: 3rem;
+    border-bottom: 1px solid #30363d;
+}
+
+#logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+#search {
+    margin-right: 2rem;
+}
+
+#search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin-right: 2rem;
+    max-width: 300px;
+}
+
+#search input[type="text"]:focus {
+    background-color: transparent;
+    outline: none;
+    color: #bbbbbb;
+    border-color: #6a994e;
+    box-shadow: 0 0 5px #6a994e;
+}
+
+#search input::placeholder {
+    color: #6a737d;
+}
+
+/* ========================
+   Sidebar
+   ======================== */
+#sidebar {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    height: calc(100vh - 60px);
+    width: 15rem;
+    background-color: #161b22;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    margin-top: 2rem;
+    border-right: 1px solid #30363d;
+    overflow-y: auto;
+}
+
+#sidebar a.active {
+    color: #6a994e;
+}
+
+#sidebar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #c9d1d9;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    opacity: 0.8;
+    display: block;
+    margin: 0.5rem 0;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #6a994e;
+}
+
+/* ========================
+   Content
+   ======================== */
+#content {
+    flex: 1;
+    padding: 4rem 4rem 4rem 4rem;
+    background-color: #0d1117;
+    overflow-y: auto;
+    font-size: 1rem;
+    /*text-align: justify;*/
+    font-weight: 300;
+    text-justify: inter-word;
+    line-height: 1.75;
+    margin-left: 18rem;
+    margin-top: 3rem;
+    max-width: 800px;
+    color: #c9d1d9;
+}
+
+#content a {
+    color: #6a994e;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+#content code {
+    background-color: #21262d;
+    color: #f8f8f2;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 1.05rem;
+}
+
+#content pre {
+    background-color: #161b22;
+    color: #f8f8f2;
+    padding: 1.2rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+}
+
+#content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+}
+
+#content blockquote {
+    border-left: 4px solid #6a994e;
+    padding-left: 1rem;
+    color: #8b949e;
+    margin: 1rem 0;
+    font-style: italic;
+    background-color: #181e24;
+    border-radius: 4px;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+#content table, #content th, #content td {
+    border: 1px solid #30363d;
+}
+
+#content th, #content td {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+#content th {
+    background-color: #161b22;
+}
+
+#content tr:nth-child(even) {
+    background-color: #21262d;
+}
+
+#content hr {
+    border: none;
+    border-top: 1px solid #30363d;
+    margin: 2rem 0;
+}
+
+/* ========================
+   Table of Content
+   ======================== */
+
+.toc {
+    position: static;
+    width: 15rem;
+    background-color: #161b22;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    margin-top: 4rem;
+    border-left: 1px solid #30363d;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.toc h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc li {
+    margin: 5px 0;
+}
+
+.toc a {
+    opacity: 0.8;
+    display: block;
+    margin: 0.5rem 0;
+    color: #c9d1d9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.toc a:hover {
+    color: #6a994e;
+}
+
+/* ========================
+   Responsive Design
+   ======================== */
+@media (max-width: 1200px) {
+    .toc {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo h1 {
+        display: none;
+    }
+
+    #sidebar {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: auto;
+        max-height: 80vh;
+        background-color: #161b22;
+        border-right: none;
+        border-bottom: 1px solid #30363d;
+        z-index: 1001;
+    }
+
+    #sidebar.show {
+        display: block;
+    }
+
+    #sidebar-toggle {
+        display: block;
+    }
+
+    #content {
+        margin-left: 0;
+        padding: 2rem 1rem;
+    }
+}
