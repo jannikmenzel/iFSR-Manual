@@ -127,6 +127,8 @@ a:hover {
 
 #content a {
     color: #6a994e;
+    display: inline;
+    margin: 0;
 }
 
 #content a:hover {
