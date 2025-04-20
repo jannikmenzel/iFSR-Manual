@@ -119,3 +119,11 @@ const sidebar = document.getElementById('sidebar');
 toggleButton.addEventListener('click', () => {
     sidebar.classList.toggle('show');
 });
+
+document.querySelectorAll('#sidebar a').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 1000) {
+            sidebar.classList.remove('show');
+        }
+    });
+});

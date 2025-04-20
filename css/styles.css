@@ -115,13 +115,11 @@ a:hover {
     background-color: #0d1117;
     overflow-y: auto;
     font-size: 1rem;
-    /*text-align: justify;*/
     font-weight: 300;
     text-justify: inter-word;
     line-height: 1.75;
     margin-left: 18rem;
     margin-top: 3rem;
-    max-width: 800px;
     color: #c9d1d9;
 }
 
@@ -263,24 +261,30 @@ a:hover {
     }
 
     #sidebar {
-        display: none;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: auto;
-        max-height: 80vh;
+        display: block;
+        position: fixed;
+        top: 3rem;
+        left: -100%;
+        width: 40%;
+        height: calc(100vh - 3rem);
         background-color: #161b22;
-        border-right: none;
-        border-bottom: 1px solid #30363d;
-        z-index: 1001;
+        border-right: 1px solid #30363d;
+        z-index: 1500;
+        padding: 1.5rem 1.5rem 1.5rem 2rem;
+        overflow-y: auto;
+        transition: left 0.3s ease-in-out;
     }
 
     #sidebar.show {
-        display: block;
+        left: 0;
     }
 
     #sidebar-toggle {
         display: block;
+        position: fixed;
+        top: 0.5rem;
+        left: 1rem;
+        z-index: 2000;
     }
 
     #content {
