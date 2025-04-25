@@ -1,43 +1,16 @@
 # Erstsemester-Checkliste
 
-Für einen erfolgreichen Start in das Studium solltest du einige organisatorische
-Kleinigkeiten unbedingt in den ersten Wochen erledigen. Diese haben wir dir in
-folgender Checkliste mit absteigender Priorität zusammengestellt.
+Für einen erfolgreichen Start in dein Studium solltest du einige organisatorische Kleinigkeiten unbedingt in den ersten Wochen erledigen. Diese haben wir dir in folgender Checkliste mit absteigender Priorität zusammengestellt.
 
 
 ## Wohnung
-Solltest du noch keine Bleibe gefunden haben, ist Beeilung angesagt, denn die
-schönsten Wohnungen sind schnell weg. Wenn du in den Genuss eines
-superschnellen Internetzugangs (bereitgestellt durch die [AG
-DSN](https://www.agdsn.de)) kommen möchtest, seien dir die
-[Wohnheime](https://www.studentenwerk-dresden.de/wohnen/wohnheimkatalog)
-des Studierendenwerks empfohlen. Alternativ bieten sich auch Portale wie [WG-Gesucht](https://www.wg-gesucht.de/) an.
+Solltest du noch keine Bleibe gefunden haben, ist Eile angesagt, denn die schönsten Wohnungen sind schnell weg. Wenn du in den Genuss eines superschnellen Internetzugangs (bereitgestellt durch die [AG DSN](https://www.agdsn.de)) kommen möchtest, seien dir die [Wohnheime](https://www.studentenwerk-dresden.de/wohnen/wohnheimkatalog) des Studierendenwerks empfohlen. Alternativ bieten sich auch Portale wie [WG-Gesucht](https://www.wg-gesucht.de/) an.
 
 ## ZIH-Login aktivieren
-Alle Studierenden erhalten vom *Zentrum für Informationsdienste und
-Hochleistungsrechnen*, kurz ZIH, einen Uni-Account. Dieser wird für alle
-wichtigen Funktionen rund um das Studium gebraucht, sei es das WLAN auf dem
-Campus oder die Anmeldung zu Prüfungen und Lehrveranstaltungen.
-Außerdem kannst du mit ihm z.B. das [Uni-VPN](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn)
-(brauchst du beispielsweise zum Zugriff auf Altklausuren von Zuhause) und die
-[Uni-Cloud](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore)
-nutzen.
-Damit du diese Dienste nutzen kannst, ist es notwendig deinen ZIH-Login mit dem
-Coupon im [Selfservice](https://selfservice.tu-dresden.de/coupons/)
-zu aktivieren. Der Coupon sollte an deine im Bewerberportal angegebene
-Emailadresse zugestellt worden sein.
+Alle Studierenden erhalten vom **Zentrum für Informationsdienste und Hochleistungsrechnen**, kurz ZIH, einen Uni-Account. Dieser wird für alle wichtigen Funktionen rund um das Studium gebraucht, sei es das WLAN auf dem Campus oder die Anmeldung zu Prüfungen und Lehrveranstaltungen. Außerdem kannst du mit ihm z.B. das [Uni-VPN](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn) (dieses brauchst du beispielsweise zum Zugriff auf Altklausuren von Zuhause) und die [Uni-Cloud](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) nutzen. Damit du diese Dienste nutzen kannst, ist es notwendig deinen ZIH-Login mit dem Coupon im [Selfservice](https://selfservice.tu-dresden.de/coupons/) zu aktivieren. Der Coupon sollte an deine im Bewerberportal angegebene E-Mail-Adresse zugestellt worden sein.
 
 ## E-Mail
-Du bekommst vom ZIH ein Exchange-Postfach *vona123a@msx.tu-dresden.de*
-und einen Alias der Form *vorname.nachname@mailbox.tu-dresden.de*.
-Falls dein Name an der TU Dresden bereits existiert,
-lautet die Alias-Adresse für Max Mustermann dann z.B.
-*max.mustermann1@mailbox…*.
-Zugriff auf dein Postfach erlangst du per Webmail und IMAP. Alternativ kann eine
-Weiterleitung an eine persönliche Adresse eingerichtet werden. Vor allem
-wichtige E-Mails von der Uni werden an diese Adressen geschickt. Sorge deshalb
-dafür, dass du deine Mails regelmäßig abrufst oder an eine andere Adresse
-weiterleitest. Weitere Informationen finden sich [hier](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/e_mail/).
+Du bekommst vom ZIH ein Exchange-Postfach **vona123a@msx.tu-dresden.de** und einen Alias der Form *vorname.nachname@mailbox.tu-dresden.de*. Falls dein Name an der TU Dresden bereits existiert, lautet die Alias-Adresse für Max Mustermann dann z.B. **max.mustermann1@mailbox...**. Zugriff auf dein Postfach erlangst du per Webmail und IMAP. Alternativ kann eine Weiterleitung an eine persönliche Adresse eingerichtet werden. Vor allem wichtige E-Mails von der Uni werden an diese Adressen geschickt. Sorge deshalb dafür, dass du deine Mails regelmäßig abrufst oder an eine andere Adresse weiterleitest. Weitere Informationen finden sich [hier](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/e_mail/).
 
 ## BAföG-Antrag
 Die Antragsformulare findest du auf den Seiten des [BMBF](https://www.bafög.de/de/alle-antragsformulare-432.php). Für weitere

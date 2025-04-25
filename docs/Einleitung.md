@@ -1,6 +1,6 @@
 # Was ist das hier?
 
-Hello World!` Bis hierher hast du es nun schon einmal geschafft. Wahnsinn!
+`Hello World!` Bis hierher hast du es nun schon einmal geschafft. Wahnsinn!
 
 Wie du vielleicht im Verlauf deines jetzt beginnenden Studiums feststellen wirst, ist es eine der schwersten Aufgaben, einen Informatiker zum Lesen des Handbuchs oder der Dokumentation zu bewegen. Wir tüfteln lieber tagelang an einem Problem, als eine halbe Stunde damit zu verbringen, die Lösung in einem Handbuch nachzuschlagen. Oft wird dir deshalb in Foren oder auf StackOverflow der Satz: "**RTFM**" – Read the fucking manual begegnen.
 
