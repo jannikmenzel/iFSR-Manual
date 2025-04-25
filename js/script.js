@@ -38,15 +38,21 @@ async function indexMarkdownFiles() {
 // loads a markdown file, renders it to the page, restores scroll position, and updates TOC
 async function loadMarkdown(file, scrollToFirst = true) {
     const response = await fetch(file);
-    const text = await response.text();
+    let text = await response.text();
+
+    text = text.replace(/\[(.*?)]\(\s*\/assets\//g, '[$1](assets/');
+
     document.getElementById('content').innerHTML = marked.parse(text);
+
     const savedScroll = localStorage.getItem(`scroll-${file}`);
+
     const links = document.querySelectorAll('#sidebar a');
     links.forEach(link => link.classList.remove('active'));
     const activeLink = Array.from(links).find(link => link.getAttribute('onclick')?.includes(file));
     if (activeLink) {
         activeLink.classList.add('active');
     }
+
     generateTOC(file);
 
     if (scrollToFirst) {
