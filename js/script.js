@@ -1,12 +1,14 @@
 /* global marked */
 let tocData = [];
 
+// fetches the list of markdown files from index.txt
 async function loadMarkdownFiles() {
     const response = await fetch('index.txt');
     const text = await response.text();
     return text.split('\n').map(line => line.trim()).filter(line => line);
 }
 
+// parses headings from all markdown files to build the TOC
 async function indexMarkdownFiles() {
     const tocList = document.getElementById('toc-list');
     tocList.innerHTML = '';
@@ -33,10 +35,12 @@ async function indexMarkdownFiles() {
     }
 }
 
+// loads a markdown file, renders it to the page, restores scroll position, and updates TOC
 async function loadMarkdown(file, scrollToFirst = true) {
     const response = await fetch(file);
     const text = await response.text();
     document.getElementById('content').innerHTML = marked.parse(text);
+    const savedScroll = localStorage.getItem(`scroll-${file}`);
     const links = document.querySelectorAll('#sidebar a');
     links.forEach(link => link.classList.remove('active'));
     const activeLink = Array.from(links).find(link => link.getAttribute('onclick')?.includes(file));
@@ -46,16 +50,25 @@ async function loadMarkdown(file, scrollToFirst = true) {
     generateTOC(file);
 
     if (scrollToFirst) {
-        const firstTOCItem = document.querySelector('#toc-list a');
-        if (firstTOCItem) {
-            const firstHeading = document.getElementById(firstTOCItem.getAttribute('href').substring(1));
-            if (firstHeading) {
-                firstHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (savedScroll) {
+            window.scrollTo(0, parseInt(savedScroll));
+        } else {
+            const firstTOCItem = document.querySelector('#toc-list a');
+            if (firstTOCItem) {
+                const firstHeading = document.getElementById(firstTOCItem.getAttribute('href').substring(1));
+                if (firstHeading) {
+                    firstHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         }
     }
+    localStorage.setItem('lastOpenedFile', file);
+    window.addEventListener('scroll', () => {
+        localStorage.setItem(`scroll-${file}`, window.scrollY.toString());
+    }, { passive: true });
 }
 
+// generates the TOC based on heading elements in the loaded markdown content
 function generateTOC(file) {
     const tocList = document.getElementById('toc-list');
     tocList.innerHTML = '';
@@ -86,7 +99,8 @@ function generateTOC(file) {
 window.onload = async function () {
     try {
         await indexMarkdownFiles();
-        await loadMarkdown('docs/Einleitung.md');
+        const lastFile = localStorage.getItem('lastOpenedFile') || 'docs/Einleitung.md';
+        await loadMarkdown(lastFile);
     } catch (error) {
         console.error('Error indexing markdown files:', error);
     }
@@ -94,6 +108,7 @@ window.onload = async function () {
 
 const searchInput = document.getElementById('searchInput');
 
+// implements simple search over headings and scrolls to the matching section
 searchInput.addEventListener('input', async function () {
     const query = this.value.toLowerCase();
     let found = false;
@@ -116,10 +131,12 @@ searchInput.addEventListener('input', async function () {
 const toggleButton = document.getElementById('sidebar-toggle');
 const sidebar = document.getElementById('sidebar');
 
+// toggles sidebar visibility on small screens
 toggleButton.addEventListener('click', () => {
     sidebar.classList.toggle('show');
 });
 
+// automatically hides the sidebar after a link click on smaller screens
 document.querySelectorAll('#sidebar a').forEach(link => {
     link.addEventListener('click', () => {
         if (window.innerWidth <= 1000) {
