@@ -14,7 +14,9 @@ Um neue Artikel in das Manual aufzunehmen, befolge diese Schritte:
    docs/artikel.md
    ```
 
-3. Pushe deine Änderungen, um die Seite zu aktualisieren. Der Artikel wird dann automatisch indiziert.
+3. Füge ein passendes Kapitel zur Sidebar hinzu (zu finden im `index.html` file)
+
+4. Pushe deine Änderungen, um die Seite zu aktualisieren. Der Artikel wird dann automatisch indiziert.
 
 ### Kontakt
 
