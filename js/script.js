@@ -63,9 +63,31 @@ async function loadMarkdown(file, scrollToFirst = true) {
         }
     }
     localStorage.setItem('lastOpenedFile', file);
-    window.addEventListener('scroll', () => {
-        localStorage.setItem(`scroll-${file}`, window.scrollY.toString());
-    }, { passive: true });
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px 0px -80% 0px',
+        threshold: 0
+    };
+
+    let activeId = null;
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                activeId = entry.target.id;
+                document.querySelectorAll('#toc a').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${activeId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    }, observerOptions);
+
+    const headings = document.querySelectorAll('#content h1, h2, h3, h4, h5, h6');
+    headings.forEach(heading => observer.observe(heading));
 }
 
 // generates the TOC based on heading elements in the loaded markdown content
@@ -144,3 +166,23 @@ document.querySelectorAll('#sidebar a').forEach(link => {
         }
     });
 });
+
+// sync scrolling of TOC and content
+const tocElement = document.getElementById('toc');
+const contentElement = document.getElementById('content');
+let isSyncingScroll = false;
+
+function syncScroll(source, target) {
+    if (isSyncingScroll) return;
+    isSyncingScroll = true;
+
+    const scrollRatio = source.scrollTop / (source.scrollHeight - source.clientHeight);
+    target.scrollTop = scrollRatio * (target.scrollHeight - target.clientHeight);
+
+    setTimeout(() => { isSyncingScroll = false; }, 20);
+}
+
+if (tocElement && contentElement) {
+    tocElement.addEventListener('scroll', () => syncScroll(tocElement, contentElement));
+    contentElement.addEventListener('scroll', () => syncScroll(contentElement, tocElement));
+}
