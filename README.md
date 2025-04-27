@@ -8,10 +8,10 @@ Um neue Artikel in das Manual aufzunehmen, befolge diese Schritte:
 
 1. Erstelle eine neue Markdown-Datei im Ordner `docs/`, z. B. `artikel.md`.
 
-2. Füge die Datei in der `index.yaml` hinzu, damit sie zur Suche indiziert werden kann:
+2. Füge die Datei in der `index.txt` hinzu, damit sie zur Suche indiziert werden kann:
 
    ```text
-   artikel_displayname: docs/artikel.md
+   docs/artikel.md
    ```
 
 3. Füge ein passendes Kapitel zur Sidebar hinzu (zu finden im `index.html` file)
