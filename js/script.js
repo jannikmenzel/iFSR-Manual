@@ -127,7 +127,7 @@ function generateTOC(file) {
 window.onload = async function () {
     try {
         await indexMarkdownFiles();
-        const lastFile = localStorage.getItem('lastOpenedFile') || 'docs/Einleitung.md';
+        const lastFile = localStorage.getItem('lastOpenedFile') || 'docs/einleitung.md';
         await loadMarkdown(lastFile);
     } catch (error) {
         console.error('Error indexing markdown files:', error);
