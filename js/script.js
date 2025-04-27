@@ -5,7 +5,7 @@ let routes = {};
 // routing
 async function navigateTo(event, file, path) {
     event.preventDefault();
-    window.location.hash = path;
+    window.history.pushState({}, '', path);
     await loadMarkdown(file);
 }
 
@@ -56,7 +56,7 @@ async function indexMarkdownFiles() {
 
 // loads a markdown file, renders it to the page, restores scroll position, and updates TOC
 async function loadMarkdown(file, scrollToFirst = true) {
-    const response = await fetch(file);
+    const response = await fetch('/iFSR-Manual/' + file);
     let text = await response.text();
 
     text = text.replace(/\[.*?]\(\/assets\//g, '[$&](assets/');
@@ -154,7 +154,7 @@ window.onload = async function () {
         await indexMarkdownFiles();
 
         // routing
-        const path = window.location.hash.substring(1);
+        const path = window.location.pathname.replace('/iFSR-Manual', '') || '/';
         await loadPage(path);
     } catch (error) {
         console.error('Error indexing markdown files:', error);
@@ -228,3 +228,8 @@ if (tocElement && contentElement) {
     tocElement.addEventListener('scroll', () => syncScroll(tocElement, contentElement));
     contentElement.addEventListener('scroll', () => syncScroll(contentElement, tocElement));
 }
+
+window.addEventListener('popstate', async () => {
+    const path = window.location.pathname.replace('/iFSR-Manual', '') || '/';
+    await loadPage(path);
+});
