@@ -60,7 +60,7 @@ async function loadMarkdown(file, scrollToFirst = true) {
     const response = await fetch(basePath ? '/' + basePath + '/' + file : '/' + file);
     let text = await response.text();
 
-    text = text.replace(/\[.*?]\(\/assets\//g, '[$&](assets/');
+    text = text.replace(/\[(.*?)]\(\s*\/assets\//g, '[$1](assets/');
 
     document.getElementById('content').innerHTML = marked.parse(text);
 
