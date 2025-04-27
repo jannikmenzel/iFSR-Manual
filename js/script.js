@@ -1,11 +1,12 @@
 /* global marked */
+const basePath = window.location.pathname.split('/')[1];
 let tocData = [];
 let routes = {};
 
 // routing
 async function navigateTo(event, file, path) {
     event.preventDefault();
-    window.history.pushState({}, '', path);
+    window.history.pushState({}, '', basePath ? '/' + basePath + path : path);
     await loadMarkdown(file);
 }
 
@@ -56,7 +57,7 @@ async function indexMarkdownFiles() {
 
 // loads a markdown file, renders it to the page, restores scroll position, and updates TOC
 async function loadMarkdown(file, scrollToFirst = true) {
-    const response = await fetch('/iFSR-Manual/' + file);
+    const response = await fetch(basePath ? '/' + basePath + '/' + file : '/' + file);
     let text = await response.text();
 
     text = text.replace(/\[.*?]\(\/assets\//g, '[$&](assets/');
@@ -145,7 +146,7 @@ function generateTOC(file) {
 
 async function loadPage(path) {
     const cleanPath = path.toLowerCase();
-    const file = routes[cleanPath] || 'docs/einleitung.md';
+    const file = routes[cleanPath] || (basePath ? basePath + '/docs/einleitung.md' : 'docs/einleitung.md');
     await loadMarkdown(file);
 }
 
@@ -154,7 +155,7 @@ window.onload = async function () {
         await indexMarkdownFiles();
 
         // routing
-        const path = window.location.pathname.replace('/iFSR-Manual', '') || '/';
+        const path = window.location.pathname.replace('/' + basePath, '') || '/';
         await loadPage(path);
     } catch (error) {
         console.error('Error indexing markdown files:', error);
@@ -164,7 +165,7 @@ window.onload = async function () {
 document.querySelectorAll('#sidebar a').forEach(link => {
     link.addEventListener('click', async function (event) {
         const path = link.getAttribute('href').substring(1);
-        await navigateTo(event, routes[path] || 'docs/einleitung.md', `/${path}`);
+        await navigateTo(event, routes[path] || (basePath ? basePath + '/docs/einleitung.md' : 'docs/einleitung.md'), `/${path}`);
     });
 });
 
@@ -230,6 +231,6 @@ if (tocElement && contentElement) {
 }
 
 window.addEventListener('popstate', async () => {
-    const path = window.location.pathname.replace('/iFSR-Manual', '') || '/';
+    const path = window.location.pathname.replace('/' + basePath, '') || '/';
     await loadPage(path);
 });
