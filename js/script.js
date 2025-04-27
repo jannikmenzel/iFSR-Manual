@@ -1,11 +1,30 @@
 /* global marked */
 let tocData = [];
+let routes = {};
 
-// fetches the list of markdown files from index.txt
+// routing
+async function navigateTo(event, file, path) {
+    event.preventDefault();
+    window.location.hash = path;
+    await loadMarkdown(file);
+}
+
+// fetches routes from index.yaml
 async function loadMarkdownFiles() {
-    const response = await fetch('index.txt');
+    const response = await fetch('index.yaml');
     const text = await response.text();
-    return text.split('\n').map(line => line.trim()).filter(line => line);
+
+    return text.split('\n')
+        .map(line => line.trim())
+        .filter(line => line && !line.startsWith('#'))
+        .map(line => {
+            const [key, value] = line.split(':').map(part => part?.trim().replace(/^"(.*)"$/, '$1'));
+            if (key && value) {
+                routes[key.toLowerCase()] = value;
+            }
+            return value;
+        })
+        .filter(line => line);
 }
 
 // parses headings from all markdown files to build the TOC
@@ -63,7 +82,7 @@ async function loadMarkdown(file, scrollToFirst = true) {
             if (firstTOCItem) {
                 const firstHeading = document.getElementById(firstTOCItem.getAttribute('href').substring(1));
                 if (firstHeading) {
-                    firstHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    firstHeading.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }
             }
         }
@@ -124,15 +143,30 @@ function generateTOC(file) {
     });
 }
 
+async function loadPage(path) {
+    const cleanPath = path.toLowerCase();
+    const file = routes[cleanPath] || 'docs/einleitung.md';
+    await loadMarkdown(file);
+}
+
 window.onload = async function () {
     try {
         await indexMarkdownFiles();
-        const lastFile = localStorage.getItem('lastOpenedFile') || 'docs/Einleitung.md';
-        await loadMarkdown(lastFile);
+
+        // routing
+        const path = window.location.hash.substring(1);
+        await loadPage(path);
     } catch (error) {
         console.error('Error indexing markdown files:', error);
     }
 };
+
+document.querySelectorAll('#sidebar a').forEach(link => {
+    link.addEventListener('click', async function (event) {
+        const path = link.getAttribute('href').substring(1);
+        await navigateTo(event, routes[path] || 'docs/einleitung.md', `/${path}`);
+    });
+});
 
 const searchInput = document.getElementById('searchInput');
 
@@ -149,7 +183,7 @@ searchInput.addEventListener('input', async function () {
             found = true;
             const heading = document.getElementById(item.id);
             if (heading) {
-                heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                heading.scrollIntoView({behavior: 'smooth', block: 'start'});
             }
             break;
         }
@@ -185,7 +219,9 @@ function syncScroll(source, target) {
     const scrollRatio = source.scrollTop / (source.scrollHeight - source.clientHeight);
     target.scrollTop = scrollRatio * (target.scrollHeight - target.clientHeight);
 
-    setTimeout(() => { isSyncingScroll = false; }, 20);
+    setTimeout(() => {
+        isSyncingScroll = false;
+    }, 20);
 }
 
 if (tocElement && contentElement) {

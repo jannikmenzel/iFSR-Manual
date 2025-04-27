@@ -1,9 +1,0 @@
-docs/Einleitung.md
-docs/faq.md
-docs/checkliste.md
-docs/f1.md
-docs/fakultaet.md
-docs/campus.md
-docs/veranstaltungen.md
-docs/studienalltag.md
-docs/moduluebersicht.md

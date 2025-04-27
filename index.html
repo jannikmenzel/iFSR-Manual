@@ -8,36 +8,35 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.svg">
 </head>
 <body>
-  <div id="navbar">
-      <button id="sidebar-toggle" aria-label="Kapitelmenü">&#9776;</button>
-      <div id="logo">
-          <h1>iFSR The Manual</h1>
-      </div>
-      <div id="search">
-          <label for="searchInput"></label><input type="text" placeholder="Suchen..." id="searchInput" />
-      </div>
-  </div>
-
-    <div id="sidebar">
-        <a href="#" onclick="loadMarkdown('docs/Einleitung.md')">Einleitung</a>
-        <a href="#" onclick="loadMarkdown('docs/faq.md')">FAQ</a>
-        <a href="#" onclick="loadMarkdown('docs/checkliste.md')">Ersti Checkliste</a>
-        <a href="#" onclick="loadMarkdown('docs/f1.md')">Press F1 for help</a>
-        <a href="#" onclick="loadMarkdown('docs/fakultaet.md')">Die Fakultät Informatik</a>
-        <a href="#" onclick="loadMarkdown('docs/campus.md')">Campus++</a>
-        <a href="#" onclick="loadMarkdown('docs/veranstaltungen.md')">Veranstaltungen</a>
-        <a href="#" onclick="loadMarkdown('docs/studienalltag.md')">Studienalltag</a>
-        <a href="#" onclick="loadMarkdown('docs/moduluebersicht.md')">Modulübersicht</a>
-
+<div id="navbar">
+    <button id="sidebar-toggle" aria-label="Kapitelmenü">&#9776;</button>
+    <div id="logo">
+        <h1>iFSR The Manual</h1>
     </div>
-    <div id="content"></div>
-
-    <div id="toc" class="toc">
-      <h2>Inhaltsverzeichnis</h2>
-      <ul id="toc-list"></ul>
+    <div id="search">
+        <label for="searchInput"></label><input type="text" placeholder="Suchen..." id="searchInput"/>
     </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/script.js"></script>
+<div id="sidebar">
+    <a href="/einleitung" id="link-einleitung">Einleitung</a>
+    <a href="/faq" id="link-faq">FAQ</a>
+    <a href="/ersti-checkliste" id="link-ersti-checkliste">Ersti Checkliste</a>
+    <a href="/f1" id="link-f1">Press F1 for help</a>
+    <a href="/fakultaet" id="link-fakultaet">Die Fakultät Informatik</a>
+    <a href="/campus" id="link-campus">Campus++</a>
+    <a href="/veranstaltungen" id="link-veranstaltungen">Veranstaltungen</a>
+    <a href="/studienalltag" id="link-studienalltag">Studienalltag</a>
+    <a href="/moduluebersicht" id="link-moduluebersicht">Modulübersicht</a>
+</div>
+<div id="content"></div>
+
+<div id="toc" class="toc">
+    <h2>Inhaltsverzeichnis</h2>
+    <ul id="toc-list"></ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

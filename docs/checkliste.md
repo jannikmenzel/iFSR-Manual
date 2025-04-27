@@ -7,32 +7,20 @@ Für einen erfolgreichen Start in dein Studium solltest du einige organisatorisc
 Solltest du noch keine Bleibe gefunden haben, ist Eile angesagt, denn die schönsten Wohnungen sind schnell weg. Wenn du in den Genuss eines superschnellen Internetzugangs (bereitgestellt durch die [AG DSN](https://www.agdsn.de)) kommen möchtest, seien dir die [Wohnheime](https://www.studentenwerk-dresden.de/wohnen/wohnheimkatalog) des Studierendenwerks empfohlen. Alternativ bieten sich auch Portale wie [WG-Gesucht](https://www.wg-gesucht.de/) an.
 
 ## ZIH-Login aktivieren
-Alle Studierenden erhalten vom **Zentrum für Informationsdienste und Hochleistungsrechnen**, kurz ZIH, einen Uni-Account. Dieser wird für alle wichtigen Funktionen rund um das Studium gebraucht, sei es das WLAN auf dem Campus oder die Anmeldung zu Prüfungen und Lehrveranstaltungen. Außerdem kannst du mit ihm z.B. das [Uni-VPN](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn) (dieses brauchst du beispielsweise zum Zugriff auf Altklausuren von Zuhause) und die [Uni-Cloud](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) nutzen. Damit du diese Dienste nutzen kannst, ist es notwendig deinen ZIH-Login mit dem Coupon im [Selfservice](https://selfservice.tu-dresden.de/coupons/) zu aktivieren. Der Coupon sollte an deine im Bewerberportal angegebene E-Mail-Adresse zugestellt worden sein.
+Alle Studierenden erhalten vom **Zentrum für Informationsdienste und Hochleistungsrechnen**, kurz ZIH, einen Uni-Account. Dieser wird für alle wichtigen Funktionen rund um das Studium gebraucht, sei es das WLAN auf dem Campus oder die Anmeldung zu Prüfungen und Lehrveranstaltungen. Außerdem kannst du mit ihm z.B. das [Uni-VPN](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/zugang_datennetz/vpn) (dieses brauchst du beispielsweise zum Zugriff auf Altklausuren von Zuhause) und die [Uni-Cloud](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) nutzen. Damit du diese Dienste nutzen kannst, ist es notwendig deinen ZIH-Login mit dem Coupon im [Selfservice](https://selfservice.tu-dresden.de/coupons/) zu aktivieren. Der Coupon sollte an deine im Bewerberportal angegebene E-Mail-Adresse zugestellt worden sein. Mit der Festlegung eines Passwortes kannst du die Aktivierung abschließen.
 
 ## E-Mail
-Du bekommst vom ZIH ein Exchange-Postfach **vona123a@msx.tu-dresden.de** und einen Alias der Form *vorname.nachname@mailbox.tu-dresden.de*. Falls dein Name an der TU Dresden bereits existiert, lautet die Alias-Adresse für Max Mustermann dann z.B. **max.mustermann1@mailbox...**. Zugriff auf dein Postfach erlangst du per Webmail und IMAP. Alternativ kann eine Weiterleitung an eine persönliche Adresse eingerichtet werden. Vor allem wichtige E-Mails von der Uni werden an diese Adressen geschickt. Sorge deshalb dafür, dass du deine Mails regelmäßig abrufst oder an eine andere Adresse weiterleitest. Weitere Informationen finden sich [hier](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/e_mail/).
+Du erhältst vom ZIH eine Mailadresse der Form *vorname.nachname@mailbox.tu-dresden.de*. Falls dein Name an der TU Dresden bereits existiert, lautet deine Adresse dann beispielsweise **max.mustermann1@mailbox...**. Zugriff auf dein Postfach erlangst du per Webmail und IMAP. Alternativ kann eine Weiterleitung an eine persönliche Adresse eingerichtet werden. Vor allem wichtige E-Mails von der Uni werden an diese Adressen geschickt. Sorge deshalb dafür, dass du deine Mails regelmäßig abrufst oder an eine andere Adresse weiterleitest. Weitere Informationen finden sich [hier](https://tu-dresden.de/zih/dienste/service-katalog/arbeitsumgebung/e_mail/).
 
 ## BAföG-Antrag
-Die Antragsformulare findest du auf den Seiten des [BMBF](https://www.bafög.de/de/alle-antragsformulare-432.php). Für weitere
-Auskünfte steht dir das Servicebüro oder dein Sachbearbeiter im
-Studierendenwerk zur Verfügung. Schiebe den Antrag nicht allzu lang vor dir
-her, da dein Anspruch frühestens ab dem Antragsmonat gilt. Informationen zu den
-Sprechzeiten beim Studierendenwerk gibt es [hier](https://www.studentenwerk-dresden.de/finanzierung/servicebuero.html).
+Die Antragsformulare findest du auf den Seiten des [BMBF](https://www.bafög.de/de/alle-antragsformulare-432.php). Für weitere Auskünfte steht dir das Servicebüro oder dein Sachbearbeiter im Studierendenwerk zur Verfügung. Schiebe den Antrag nicht allzu lang vor dir her, da dein Anspruch frühestens ab dem Antragsmonat gilt. Informationen zu den Sprechzeiten beim Studierendenwerk gibt es [hier](https://www.studentenwerk-dresden.de/finanzierung/servicebuero.html).
 
 ## Wohnsitz anmelden
-Offiziell musst du innerhalb von zwei Wochen beim zuständigen [Ortsamt](https://www.dresden.de/de/rathaus/dienstleistungen/wohnsitz_meldung_d115.php)
-deine Wohnung anmelden. Wenn du deine Wohnung als Nebenwohnsitz anmeldest, musst du
-Zweitwohnungssteuer zahlen. Diese beträgt 10% der Kaltmiete pro Monat.
-Weiteres hierzu findest du auf den Seiten des [StuRa](https://www.stura.tu-dresden.de/zweitwohnungssteuer) oder der [Stadt
-Dresden](https://www.dresden.de/de/rathaus/dienstleistungen/zweitwohnungssteuer.php).
-Bitte vergiss auch nicht, dass jeder Haushalt (WGs können zusammenlegen!) den Rundfunkbeitrag
-zahlen muss. Melde dich also an oder reiche deine BAföG-Befreiung ein.
+Offiziell musst du innerhalb von zwei Wochen bei dem zuständigen [Ortsamt](https://www.dresden.de/de/rathaus/dienstleistungen/wohnsitz_meldung_d115.php) deine Wohnung anmelden. Wenn du deine Wohnung als Nebenwohnsitz anmeldest, musst du Zweitwohnungssteuer zahlen. Diese beträgt 10 % der Kaltmiete pro Monat. Weiteres hierzu findest du auf den Seiten des [StuRa](https://www.stura.tu-dresden.de/zweitwohnungssteuer) oder der [Stadt Dresden](https://www.dresden.de/de/rathaus/dienstleistungen/zweitwohnungssteuer.php). Bitte vergiss auch nicht, dass jeder Haushalt (WGs können zusammenlegen!) den Rundfunkbeitrag zahlen muss. Melde dich also an oder reiche deine BAföG-Befreiung ein.
 
-## Emeal-Karte
-Die Mensakarte ermöglicht dir das bargeldlose Bezahlen in den verschiedenen
-Mensen der Uni. Du erhältst sie während der ESE oder in den Mensen selbst gegen
-eine Kaution von 5 € und unter Vorlage der Emeal-Bescheinigung, die du auf
-deinem Semesterbogen findest.
+## Autoload
+Mit deiner Campuscard kannst du in den verschiedenen
+Mensen der Uni bargeldlos bezahlen. An den Kassen kannst du dabei jederzeit dein Guthaben aufladen. Es kann sich jedoch auch lohnen für deine Karte das [Autoload](https://www.studentenwerk-dresden.de/mensen/emeal-autoload.html)
 
 ## WLAN
 Sowohl auf dem Campus als auch in den Räumlichkeiten der Fakultät kannst du mit
