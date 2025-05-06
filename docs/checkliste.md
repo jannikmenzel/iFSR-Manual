@@ -82,7 +82,7 @@ von Medien ist grundsätzlich kostenlos -- vorausgesetzt du überziehst die
 Leihfristen nicht ;).
 
 ## FSR Sitzung besuchen (optional)
-Unter [Press F1](f1.md#fachschaftsrat-fsr) findest Du mehr Informationen über den FSR.
+Unter [Press F1](/page/f1) findest Du mehr Informationen über den FSR.
 
 ## Fachschaftsratwahlen
 Wähle deine studentischen Vertreter im FSR Informatik. Die Wahlen finden Ende des Jahres statt. Geh wählen! Und noch besser: Lass dich wählen!

@@ -1,7 +1,6 @@
 # FAQ
 
 ## Studium
-<a id="Studium"></a>
 
 ### Wie sieht ein typisches Studiensemester aus?
 
@@ -52,7 +51,6 @@ Es fallen keine Studiengebühren an – aber du musst pro Semester einen [Semest
 Neben BAföG gibt es viele Stipendienprogramme – z.B. das Deutschlandstipendium. Auch das Studentenwerk kann dich in besonderen Fällen mit einem Darlehen oder einer Notfallhilfe unterstützen. Frag im Zweifel einfach beim Sozialberatungsteam des Studentenwerks nach.
 
 ## Prüfungen
-<a id="Prüfungen"></a>
 
 ### Wie schreibe ich mich in Prüfungen ein?
 
@@ -77,7 +75,6 @@ Altklausuren findest du auf dem [FTP-Server](https://ftp.ifsr.de/klausuren) des 
 Ja! Neben der psychologischen Beratung des [Studentenwerks](https://www.studentenwerk-dresden.de/soziales/psychosoziale-beratung.html) gibt es auch die [Nightline Dresden](https://nightline-dresden.de/) – ein kostenloser, anonymer Zuhördienst, der speziell für Studierende angeboten wird. Weitere Informationen und die Erreichbarkeit findest du auf der Webseite.
 
 ## IT
-<a id="IT"></a>
 
 ### Wie funktioniert das mit dem WLAN?
 
@@ -92,7 +89,6 @@ In guter TU-Dresden-Tradition gibt es natürlich für alles ein eigenes Portal �
 * [Campucard](https://campuscard.tu-dresden.de/) Hier lädst du dein Semesterticket herunter – das brauchst du für Bus, Bahn und mehr.
 
 ## Freizeit
-<a id="Freizeit"></a>
 
 ### Wie und wann melde ich mich für Unisport an?
 
@@ -115,7 +111,6 @@ Neben dem Studium hast du viele Möglichkeiten, dich zu engagieren oder praktisc
 Wenn du lieber nebenbei etwas Geld verdienen möchtest, gibt es viele offene Stellen für studentische Hilfskräfte oder Nebenjobs. Über den Verteiler [extern@ifsr.de](https://lists.ifsr.de/mm3/postorius/lists/extern.ifsr.de/) werden regelmäßig aktuelle Jobangebote verschickt. Falls dort nichts Passendes dabei ist, lohnt sich auch ein Blick auf die [STAV – die studentische Arbeitsvermittlung](https://www.stav-dresden.de).
 
 ## Dresden und Umgebung
-<a id="Dresden-und-Umgebung"></a>
 
 ### Was ist nach dem Einzug zu erledigen?
 

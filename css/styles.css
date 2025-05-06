@@ -252,6 +252,15 @@ a:hover {
     color: #6a994e;
 }
 
+#content h1[id],
+#content h2[id],
+#content h3[id],
+#content h4[id],
+#content h5[id],
+#content h6[id] {
+    scroll-margin-top: 50px;
+}
+
 /* ========================
    Responsive Design
    ======================== */

@@ -19,25 +19,26 @@
   </div>
 
     <div id="sidebar">
-        <a href="#" onclick="loadMarkdown('docs/einleitung.md')">Einleitung</a>
-        <a href="#" onclick="loadMarkdown('docs/faq.md')">FAQ</a>
-        <a href="#" onclick="loadMarkdown('docs/checkliste.md')">Ersti Checkliste</a>
-        <a href="#" onclick="loadMarkdown('docs/f1.md')">Press F1 for help</a>
-        <a href="#" onclick="loadMarkdown('docs/fakultaet.md')">Die Fakultät Informatik</a>
-        <a href="#" onclick="loadMarkdown('docs/campus.md')">Campus++</a>
-        <a href="#" onclick="loadMarkdown('docs/veranstaltungen.md')">Veranstaltungen</a>
-        <a href="#" onclick="loadMarkdown('docs/studienalltag.md')">Studienalltag</a>
-        <a href="#" onclick="loadMarkdown('docs/moduluebersicht.md')">Modulübersicht</a>
+        <a href="/page/einleitung">Einleitung</a>
+        <a href="/page/faq">FAQ</a>
+        <a href="/page/checkliste">Ersti Checkliste</a>
+        <a href="/page/f1">Press F1 for help</a>
+        <a href="/page/fakultaet">Die Fakultät Informatik</a>
+        <a href="/page/campus">Campus++</a>
+        <a href="/page/veranstaltungen">Veranstaltungen</a>
+        <a href="/page/studienalltag">Studienalltag</a>
+        <a href="/page/moduluebersicht">Modulübersicht</a>
 
     </div>
-    <div id="content"></div>
+    <div id="content">
+        {{content}}
+    </div>
 
     <div id="toc" class="toc">
       <h2>Inhaltsverzeichnis</h2>
       <ul id="toc-list"></ul>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
