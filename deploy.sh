@@ -49,10 +49,3 @@ else
     echo "$INTRO_MD nicht gefunden!"
 fi
 
-# adjust relative paths in generated HTML files
-for html_file in "$OUTPUT_DIR"/*/*.html; do
-    sed -i '' 's|css/|../../css/|g' "$html_file"
-    sed -i '' 's|\/assets/|../../assets/|g' "$html_file"
-    sed -i '' 's|assets/favicon.svg|../../assets/favicon.svg|g' "$html_file"
-    sed -i '' 's|js/|../../js/|g' "$html_file"
-done
