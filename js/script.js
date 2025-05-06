@@ -16,7 +16,10 @@ function generateTOC() {
         li.classList.add(`toc-${heading.tagName.toLowerCase()}`);
 
         const a = document.createElement('a');
-        a.href = `#${heading.id}`;
+        a.addEventListener('click', (event) => {
+            event.preventDefault();
+            document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth' });
+        });
         a.textContent = heading.textContent;
 
         li.appendChild(a);
