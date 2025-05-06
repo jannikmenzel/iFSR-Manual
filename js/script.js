@@ -64,10 +64,3 @@ if (tocElement && contentElement) {
     tocElement.addEventListener('scroll', () => syncScroll(tocElement, contentElement));
     contentElement.addEventListener('scroll', () => syncScroll(contentElement, tocElement));
 }
-
-// Automatically navigate to /page/einleitung when the page is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname === '/' || window.location.pathname === '/iFSR-Manual/') {
-        window.location.href = '/iFSR-Manual/page/einleitung/';
-    }
-});

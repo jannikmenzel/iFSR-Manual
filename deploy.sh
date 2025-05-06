@@ -3,7 +3,7 @@
 # set input, output, and template file paths
 SOURCE_DIR="./docs"
 OUTPUT_DIR="./page"
-TEMPLATE="./index.html"
+TEMPLATE="./template.html"
 
 # check if the template file exists
 if [ ! -f "$TEMPLATE" ]; then
@@ -33,6 +33,21 @@ for md_file in "$SOURCE_DIR"/*.md; do
     }' "$TEMPLATE" > "$output_file"
 
 done
+
+# also convert einleitung.md to index.html in root output
+INTRO_MD="$SOURCE_DIR/einleitung.md"
+INTRO_HTML="./index.html"
+
+if [ -f "$INTRO_MD" ]; then
+    echo "convert $INTRO_MD -> $INTRO_HTML"
+    intro_content=$(pandoc "${INTRO_MD}")
+    printf '%s\n' "$intro_content" | sed '/{{content}}/{
+        s/{{content}}//g
+        r /dev/stdin
+    }' "$TEMPLATE" > "$INTRO_HTML"
+else
+    echo "$INTRO_MD nicht gefunden!"
+fi
 
 # adjust relative paths in generated HTML files
 for html_file in "$OUTPUT_DIR"/*/*.html; do
